@@ -1,0 +1,23 @@
+[
+    {
+        name: testcase1,
+        n: 3,
+        dt: 0.01,
+        step: 300,
+        seq_time(s): 0.001
+    },
+    {
+        name: testcase1,
+        n: 70,
+        dt: 0.01,
+        step: 300,
+        seq_time(s): 0.021
+    },
+    {
+        name: testcase3,
+        n: 10000,
+        dt: 0.01,
+        step: 300,
+        seq_time(s): 184.444
+    },        
+]
