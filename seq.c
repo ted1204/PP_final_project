@@ -120,7 +120,7 @@ void nBody(){
 }
 
 void Simulation(){
-    FILE* fout = fopen("trajectory.bin", "wb");
+    FILE* fout = fopen("./.middle/trajectory.bin", "wb");
     for(int step = 1; step <= steps; step++) {
         printf("step: %d\n", step);
         nBody();
